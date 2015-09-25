@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B506DF5A1BAF9C1600EA7997 /* WKSInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B506DF591BAF9C1600EA7997 /* WKSInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B506DF5C1BAF9C6900EA7997 /* WKSAirlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B506DF5B1BAF9C6900EA7997 /* WKSAirlineViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B506DF5E1BAF9C7A00EA7997 /* WKSAirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B506DF5D1BAF9C7A00EA7997 /* WKSAirportViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B506DF601BAF9CCA00EA7997 /* WKSDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B506DF5F1BAF9CCA00EA7997 /* WKSDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B506DF661BAFA4CA00EA7997 /* WKSFileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B506DF651BAFA4CA00EA7997 /* WKSFileController.swift */; settings = {ASSET_TAGS = (); }; };
+		B58292F01BAFF8E5005D2521 /* airline.csv in Resources */ = {isa = PBXBuildFile; fileRef = B58292EF1BAFF8E5005D2521 /* airline.csv */; settings = {ASSET_TAGS = (); }; };
+		B58292F61BB03808005D2521 /* WKSIndexCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58292F51BB03808005D2521 /* WKSIndexCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B58292F81BB0537D005D2521 /* WKSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58292F71BB0537D005D2521 /* WKSTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B58292FA1BB18D18005D2521 /* WKSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58292F91BB18D18005D2521 /* WKSColor.swift */; settings = {ASSET_TAGS = (); }; };
+		B58292FC1BB1943B005D2521 /* airport.csv in Resources */ = {isa = PBXBuildFile; fileRef = B58292FB1BB1943B005D2521 /* airport.csv */; settings = {ASSET_TAGS = (); }; };
+		B58292FE1BB1A6CC005D2521 /* WKSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58292FD1BB1A6CC005D2521 /* WKSLabel.swift */; settings = {ASSET_TAGS = (); }; };
+		B58293001BB22A49005D2521 /* WKSDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58292FF1BB22A49005D2521 /* WKSDatePickerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B58293021BB258C4005D2521 /* WKSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58293011BB258C4005D2521 /* WKSDateFormatter.swift */; settings = {ASSET_TAGS = (); }; };
+		B58293041BB294C1005D2521 /* WKSInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58293031BB294C1005D2521 /* WKSInfomation.swift */; settings = {ASSET_TAGS = (); }; };
+		B58293061BB29EC3005D2521 /* WKSInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58293051BB29EC3005D2521 /* WKSInfoTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B58293081BB3CA04005D2521 /* WKSTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58293071BB3CA04005D2521 /* WKSTransaction.swift */; settings = {ASSET_TAGS = (); }; };
+		B582930A1BB4225D005D2521 /* timer_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293091BB4225D005D2521 /* timer_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B582930C1BB42BA9005D2521 /* WKSTopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582930B1BB42BA9005D2521 /* WKSTopTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B58293161BB4E62D005D2521 /* WKSDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58293151BB4E62D005D2521 /* WKSDetailTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B58293181BB50177005D2521 /* snow_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293171BB50177005D2521 /* snow_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B582931A1BB50183005D2521 /* rainy_weather_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293191BB50183005D2521 /* rainy_weather_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B582931C1BB5018D005D2521 /* light_snow_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B582931B1BB5018D005D2521 /* light_snow_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B582931E1BB501AD005D2521 /* rain_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B582931D1BB501AD005D2521 /* rain_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B58293201BB501B3005D2521 /* storm_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B582931F1BB501B3005D2521 /* storm_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B58293221BB501B9005D2521 /* sun_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293211BB501B9005D2521 /* sun_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B58293241BB501BE005D2521 /* fog_day_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293231BB501BE005D2521 /* fog_day_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B58293261BB501C4005D2521 /* light_rain_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293251BB501C4005D2521 /* light_rain_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B58293281BB50261005D2521 /* partly_cloudy_day_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293271BB50261005D2521 /* partly_cloudy_day_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B582932A1BB5029E005D2521 /* clouds_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B58293291BB5029E005D2521 /* clouds_filled.png */; settings = {ASSET_TAGS = (); }; };
+		B588C4771BA5C6B10023C44E /* user_menu_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B588C4761BA5C6B10023C44E /* user_menu_filled.png */; };
+		B588C4791BA5C8810023C44E /* christmas_star_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B588C4781BA5C8810023C44E /* christmas_star_filled.png */; };
+		B588C47F1BAC502C0023C44E /* WKSSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588C47E1BAC502C0023C44E /* WKSSupport.swift */; };
+		B5983BFC1BA5A92700EB9E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5983BFB1BA5A92700EB9E61 /* AppDelegate.swift */; };
+		B5983BFE1BA5A92700EB9E61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5983BFD1BA5A92700EB9E61 /* ViewController.swift */; };
+		B5983C011BA5A92700EB9E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5983BFF1BA5A92700EB9E61 /* Main.storyboard */; };
+		B5983C031BA5A92700EB9E61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5983C021BA5A92700EB9E61 /* Images.xcassets */; };
+		B5983C061BA5A92800EB9E61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5983C041BA5A92800EB9E61 /* LaunchScreen.xib */; };
+		B5983C121BA5A92800EB9E61 /* FlightTripAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5983C111BA5A92800EB9E61 /* FlightTripAppTests.swift */; };
+		B5983C201BA5ADF300EB9E61 /* airplane_take_off_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B5983C1F1BA5ADF300EB9E61 /* airplane_take_off_filled.png */; };
+		B5983C221BA5ADF700EB9E61 /* airplane_landing_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B5983C211BA5ADF700EB9E61 /* airplane_landing_filled.png */; };
+		B5983C241BA5AE3C00EB9E61 /* airplane_mode_on_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B5983C231BA5AE3C00EB9E61 /* airplane_mode_on_filled.png */; };
+		B5983C261BA5AF6700EB9E61 /* calendar_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = B5983C251BA5AF6700EB9E61 /* calendar_filled.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5983C0C1BA5A92800EB9E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5983BEE1BA5A92700EB9E61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5983BF51BA5A92700EB9E61;
+			remoteInfo = FlightTripApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B506DF591BAF9C1600EA7997 /* WKSInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSInfoViewController.swift; sourceTree = "<group>"; };
+		B506DF5B1BAF9C6900EA7997 /* WKSAirlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSAirlineViewController.swift; sourceTree = "<group>"; };
+		B506DF5D1BAF9C7A00EA7997 /* WKSAirportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSAirportViewController.swift; sourceTree = "<group>"; };
+		B506DF5F1BAF9CCA00EA7997 /* WKSDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSDetailViewController.swift; sourceTree = "<group>"; };
+		B506DF651BAFA4CA00EA7997 /* WKSFileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSFileController.swift; sourceTree = "<group>"; };
+		B58292EF1BAFF8E5005D2521 /* airline.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airline.csv; sourceTree = "<group>"; };
+		B58292F51BB03808005D2521 /* WKSIndexCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSIndexCollectionViewController.swift; sourceTree = "<group>"; };
+		B58292F71BB0537D005D2521 /* WKSTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSTableViewController.swift; sourceTree = "<group>"; };
+		B58292F91BB18D18005D2521 /* WKSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSColor.swift; sourceTree = "<group>"; };
+		B58292FB1BB1943B005D2521 /* airport.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airport.csv; sourceTree = "<group>"; };
+		B58292FD1BB1A6CC005D2521 /* WKSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSLabel.swift; sourceTree = "<group>"; };
+		B58292FF1BB22A49005D2521 /* WKSDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSDatePickerViewController.swift; sourceTree = "<group>"; };
+		B58293011BB258C4005D2521 /* WKSDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSDateFormatter.swift; sourceTree = "<group>"; };
+		B58293031BB294C1005D2521 /* WKSInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSInfomation.swift; sourceTree = "<group>"; };
+		B58293051BB29EC3005D2521 /* WKSInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSInfoTableViewController.swift; sourceTree = "<group>"; };
+		B58293071BB3CA04005D2521 /* WKSTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSTransaction.swift; sourceTree = "<group>"; };
+		B58293091BB4225D005D2521 /* timer_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_filled.png; sourceTree = "<group>"; };
+		B582930B1BB42BA9005D2521 /* WKSTopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSTopTableViewController.swift; sourceTree = "<group>"; };
+		B58293151BB4E62D005D2521 /* WKSDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSDetailTableViewController.swift; sourceTree = "<group>"; };
+		B58293171BB50177005D2521 /* snow_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_filled.png; sourceTree = "<group>"; };
+		B58293191BB50183005D2521 /* rainy_weather_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainy_weather_filled.png; sourceTree = "<group>"; };
+		B582931B1BB5018D005D2521 /* light_snow_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_snow_filled.png; sourceTree = "<group>"; };
+		B582931D1BB501AD005D2521 /* rain_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain_filled.png; sourceTree = "<group>"; };
+		B582931F1BB501B3005D2521 /* storm_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storm_filled.png; sourceTree = "<group>"; };
+		B58293211BB501B9005D2521 /* sun_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_filled.png; sourceTree = "<group>"; };
+		B58293231BB501BE005D2521 /* fog_day_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fog_day_filled.png; sourceTree = "<group>"; };
+		B58293251BB501C4005D2521 /* light_rain_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_rain_filled.png; sourceTree = "<group>"; };
+		B58293271BB50261005D2521 /* partly_cloudy_day_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = partly_cloudy_day_filled.png; sourceTree = "<group>"; };
+		B58293291BB5029E005D2521 /* clouds_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clouds_filled.png; sourceTree = "<group>"; };
+		B588C4761BA5C6B10023C44E /* user_menu_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_menu_filled.png; sourceTree = "<group>"; };
+		B588C4781BA5C8810023C44E /* christmas_star_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = christmas_star_filled.png; sourceTree = "<group>"; };
+		B588C47E1BAC502C0023C44E /* WKSSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSSupport.swift; sourceTree = "<group>"; };
+		B5983BF61BA5A92700EB9E61 /* FlightTripApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightTripApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5983BFA1BA5A92700EB9E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5983BFB1BA5A92700EB9E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5983BFD1BA5A92700EB9E61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5983C001BA5A92700EB9E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5983C021BA5A92700EB9E61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5983C051BA5A92800EB9E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5983C0B1BA5A92800EB9E61 /* FlightTripAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTripAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5983C101BA5A92800EB9E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5983C111BA5A92800EB9E61 /* FlightTripAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTripAppTests.swift; sourceTree = "<group>"; };
+		B5983C1F1BA5ADF300EB9E61 /* airplane_take_off_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane_take_off_filled.png; sourceTree = "<group>"; };
+		B5983C211BA5ADF700EB9E61 /* airplane_landing_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane_landing_filled.png; sourceTree = "<group>"; };
+		B5983C231BA5AE3C00EB9E61 /* airplane_mode_on_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane_mode_on_filled.png; sourceTree = "<group>"; };
+		B5983C251BA5AF6700EB9E61 /* calendar_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_filled.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5983BF31BA5A92700EB9E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5983C081BA5A92800EB9E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B582930D1BB4E443005D2521 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				B58293141BB4E5DF005D2521 /* detailview */,
+				B58293131BB4E581005D2521 /* airline_airportview */,
+				B58293121BB4E566005D2521 /* infoview */,
+				B58293111BB4E549005D2521 /* topview */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		B582930E1BB4E4C1005D2521 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B58293011BB258C4005D2521 /* WKSDateFormatter.swift */,
+				B58292F91BB18D18005D2521 /* WKSColor.swift */,
+				B58292FD1BB1A6CC005D2521 /* WKSLabel.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		B582930F1BB4E4EE005D2521 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B58292EF1BAFF8E5005D2521 /* airline.csv */,
+				B58292FB1BB1943B005D2521 /* airport.csv */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		B58293101BB4E501005D2521 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B58293031BB294C1005D2521 /* WKSInfomation.swift */,
+				B58293071BB3CA04005D2521 /* WKSTransaction.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		B58293111BB4E549005D2521 /* topview */ = {
+			isa = PBXGroup;
+			children = (
+				B5983BFD1BA5A92700EB9E61 /* ViewController.swift */,
+				B582930B1BB42BA9005D2521 /* WKSTopTableViewController.swift */,
+			);
+			name = topview;
+			sourceTree = "<group>";
+		};
+		B58293121BB4E566005D2521 /* infoview */ = {
+			isa = PBXGroup;
+			children = (
+				B506DF591BAF9C1600EA7997 /* WKSInfoViewController.swift */,
+				B58293051BB29EC3005D2521 /* WKSInfoTableViewController.swift */,
+				B58292FF1BB22A49005D2521 /* WKSDatePickerViewController.swift */,
+			);
+			name = infoview;
+			sourceTree = "<group>";
+		};
+		B58293131BB4E581005D2521 /* airline_airportview */ = {
+			isa = PBXGroup;
+			children = (
+				B506DF5B1BAF9C6900EA7997 /* WKSAirlineViewController.swift */,
+				B506DF5D1BAF9C7A00EA7997 /* WKSAirportViewController.swift */,
+				B58292F51BB03808005D2521 /* WKSIndexCollectionViewController.swift */,
+				B58292F71BB0537D005D2521 /* WKSTableViewController.swift */,
+			);
+			name = airline_airportview;
+			sourceTree = "<group>";
+		};
+		B58293141BB4E5DF005D2521 /* detailview */ = {
+			isa = PBXGroup;
+			children = (
+				B506DF5F1BAF9CCA00EA7997 /* WKSDetailViewController.swift */,
+				B58293151BB4E62D005D2521 /* WKSDetailTableViewController.swift */,
+			);
+			name = detailview;
+			sourceTree = "<group>";
+		};
+		B588C47A1BAC47F90023C44E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B588C47B1BAC4D370023C44E /* weather */,
+				B588C4781BA5C8810023C44E /* christmas_star_filled.png */,
+				B58293091BB4225D005D2521 /* timer_filled.png */,
+				B588C4761BA5C6B10023C44E /* user_menu_filled.png */,
+				B5983C251BA5AF6700EB9E61 /* calendar_filled.png */,
+				B5983C1F1BA5ADF300EB9E61 /* airplane_take_off_filled.png */,
+				B5983C211BA5ADF700EB9E61 /* airplane_landing_filled.png */,
+				B5983C231BA5AE3C00EB9E61 /* airplane_mode_on_filled.png */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		B588C47B1BAC4D370023C44E /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				B58293211BB501B9005D2521 /* sun_filled.png */,
+				B58293291BB5029E005D2521 /* clouds_filled.png */,
+				B58293171BB50177005D2521 /* snow_filled.png */,
+				B582931D1BB501AD005D2521 /* rain_filled.png */,
+				B58293191BB50183005D2521 /* rainy_weather_filled.png */,
+				B58293271BB50261005D2521 /* partly_cloudy_day_filled.png */,
+				B58293251BB501C4005D2521 /* light_rain_filled.png */,
+				B58293231BB501BE005D2521 /* fog_day_filled.png */,
+				B582931F1BB501B3005D2521 /* storm_filled.png */,
+				B582931B1BB5018D005D2521 /* light_snow_filled.png */,
+			);
+			name = weather;
+			sourceTree = "<group>";
+		};
+		B5983BED1BA5A92700EB9E61 = {
+			isa = PBXGroup;
+			children = (
+				B5983BF81BA5A92700EB9E61 /* FlightTripApp */,
+				B5983C0E1BA5A92800EB9E61 /* FlightTripAppTests */,
+				B5983BF71BA5A92700EB9E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5983BF71BA5A92700EB9E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5983BF61BA5A92700EB9E61 /* FlightTripApp.app */,
+				B5983C0B1BA5A92800EB9E61 /* FlightTripAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5983BF81BA5A92700EB9E61 /* FlightTripApp */ = {
+			isa = PBXGroup;
+			children = (
+				B58293101BB4E501005D2521 /* models */,
+				B582930F1BB4E4EE005D2521 /* resources */,
+				B582930E1BB4E4C1005D2521 /* extensions */,
+				B582930D1BB4E443005D2521 /* viewcontroller */,
+				B588C47A1BAC47F90023C44E /* views */,
+				B5983BFB1BA5A92700EB9E61 /* AppDelegate.swift */,
+				B5983C021BA5A92700EB9E61 /* Images.xcassets */,
+				B5983BFF1BA5A92700EB9E61 /* Main.storyboard */,
+				B5983C041BA5A92800EB9E61 /* LaunchScreen.xib */,
+				B5983BF91BA5A92700EB9E61 /* Supporting Files */,
+				B506DF651BAFA4CA00EA7997 /* WKSFileController.swift */,
+				B588C47E1BAC502C0023C44E /* WKSSupport.swift */,
+			);
+			path = FlightTripApp;
+			sourceTree = "<group>";
+		};
+		B5983BF91BA5A92700EB9E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5983BFA1BA5A92700EB9E61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5983C0E1BA5A92800EB9E61 /* FlightTripAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5983C111BA5A92800EB9E61 /* FlightTripAppTests.swift */,
+				B5983C0F1BA5A92800EB9E61 /* Supporting Files */,
+			);
+			path = FlightTripAppTests;
+			sourceTree = "<group>";
+		};
+		B5983C0F1BA5A92800EB9E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5983C101BA5A92800EB9E61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5983BF51BA5A92700EB9E61 /* FlightTripApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5983C151BA5A92800EB9E61 /* Build configuration list for PBXNativeTarget "FlightTripApp" */;
+			buildPhases = (
+				B5983BF21BA5A92700EB9E61 /* Sources */,
+				B5983BF31BA5A92700EB9E61 /* Frameworks */,
+				B5983BF41BA5A92700EB9E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightTripApp;
+			productName = FlightTripApp;
+			productReference = B5983BF61BA5A92700EB9E61 /* FlightTripApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5983C0A1BA5A92800EB9E61 /* FlightTripAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5983C181BA5A92800EB9E61 /* Build configuration list for PBXNativeTarget "FlightTripAppTests" */;
+			buildPhases = (
+				B5983C071BA5A92800EB9E61 /* Sources */,
+				B5983C081BA5A92800EB9E61 /* Frameworks */,
+				B5983C091BA5A92800EB9E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5983C0D1BA5A92800EB9E61 /* PBXTargetDependency */,
+			);
+			name = FlightTripAppTests;
+			productName = FlightTripAppTests;
+			productReference = B5983C0B1BA5A92800EB9E61 /* FlightTripAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5983BEE1BA5A92700EB9E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kazufumi Watanabe";
+				TargetAttributes = {
+					B5983BF51BA5A92700EB9E61 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5983C0A1BA5A92800EB9E61 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B5983BF51BA5A92700EB9E61;
+					};
+				};
+			};
+			buildConfigurationList = B5983BF11BA5A92700EB9E61 /* Build configuration list for PBXProject "FlightTripApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5983BED1BA5A92700EB9E61;
+			productRefGroup = B5983BF71BA5A92700EB9E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5983BF51BA5A92700EB9E61 /* FlightTripApp */,
+				B5983C0A1BA5A92800EB9E61 /* FlightTripAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5983BF41BA5A92700EB9E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B582931A1BB50183005D2521 /* rainy_weather_filled.png in Resources */,
+				B58292F01BAFF8E5005D2521 /* airline.csv in Resources */,
+				B58293201BB501B3005D2521 /* storm_filled.png in Resources */,
+				B58293221BB501B9005D2521 /* sun_filled.png in Resources */,
+				B5983C201BA5ADF300EB9E61 /* airplane_take_off_filled.png in Resources */,
+				B582931E1BB501AD005D2521 /* rain_filled.png in Resources */,
+				B588C4771BA5C6B10023C44E /* user_menu_filled.png in Resources */,
+				B582931C1BB5018D005D2521 /* light_snow_filled.png in Resources */,
+				B58293241BB501BE005D2521 /* fog_day_filled.png in Resources */,
+				B582932A1BB5029E005D2521 /* clouds_filled.png in Resources */,
+				B5983C011BA5A92700EB9E61 /* Main.storyboard in Resources */,
+				B582930A1BB4225D005D2521 /* timer_filled.png in Resources */,
+				B5983C061BA5A92800EB9E61 /* LaunchScreen.xib in Resources */,
+				B5983C241BA5AE3C00EB9E61 /* airplane_mode_on_filled.png in Resources */,
+				B5983C221BA5ADF700EB9E61 /* airplane_landing_filled.png in Resources */,
+				B58293261BB501C4005D2521 /* light_rain_filled.png in Resources */,
+				B588C4791BA5C8810023C44E /* christmas_star_filled.png in Resources */,
+				B58293281BB50261005D2521 /* partly_cloudy_day_filled.png in Resources */,
+				B58293181BB50177005D2521 /* snow_filled.png in Resources */,
+				B58292FC1BB1943B005D2521 /* airport.csv in Resources */,
+				B5983C261BA5AF6700EB9E61 /* calendar_filled.png in Resources */,
+				B5983C031BA5A92700EB9E61 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5983C091BA5A92800EB9E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5983BF21BA5A92700EB9E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58292FA1BB18D18005D2521 /* WKSColor.swift in Sources */,
+				B58293081BB3CA04005D2521 /* WKSTransaction.swift in Sources */,
+				B5983BFE1BA5A92700EB9E61 /* ViewController.swift in Sources */,
+				B58292FE1BB1A6CC005D2521 /* WKSLabel.swift in Sources */,
+				B5983BFC1BA5A92700EB9E61 /* AppDelegate.swift in Sources */,
+				B58293001BB22A49005D2521 /* WKSDatePickerViewController.swift in Sources */,
+				B506DF5E1BAF9C7A00EA7997 /* WKSAirportViewController.swift in Sources */,
+				B58293061BB29EC3005D2521 /* WKSInfoTableViewController.swift in Sources */,
+				B506DF661BAFA4CA00EA7997 /* WKSFileController.swift in Sources */,
+				B506DF601BAF9CCA00EA7997 /* WKSDetailViewController.swift in Sources */,
+				B506DF5C1BAF9C6900EA7997 /* WKSAirlineViewController.swift in Sources */,
+				B58293161BB4E62D005D2521 /* WKSDetailTableViewController.swift in Sources */,
+				B582930C1BB42BA9005D2521 /* WKSTopTableViewController.swift in Sources */,
+				B506DF5A1BAF9C1600EA7997 /* WKSInfoViewController.swift in Sources */,
+				B58293041BB294C1005D2521 /* WKSInfomation.swift in Sources */,
+				B58293021BB258C4005D2521 /* WKSDateFormatter.swift in Sources */,
+				B588C47F1BAC502C0023C44E /* WKSSupport.swift in Sources */,
+				B58292F61BB03808005D2521 /* WKSIndexCollectionViewController.swift in Sources */,
+				B58292F81BB0537D005D2521 /* WKSTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5983C071BA5A92800EB9E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5983C121BA5A92800EB9E61 /* FlightTripAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5983C0D1BA5A92800EB9E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5983BF51BA5A92700EB9E61 /* FlightTripApp */;
+			targetProxy = B5983C0C1BA5A92800EB9E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5983BFF1BA5A92700EB9E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5983C001BA5A92700EB9E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5983C041BA5A92800EB9E61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5983C051BA5A92800EB9E61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5983C131BA5A92800EB9E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5983C141BA5A92800EB9E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5983C161BA5A92800EB9E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightTripApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.wks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5983C171BA5A92800EB9E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightTripApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.wks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5983C191BA5A92800EB9E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlightTripAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.wks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTripApp.app/FlightTripApp";
+			};
+			name = Debug;
+		};
+		B5983C1A1BA5A92800EB9E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlightTripAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.wks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTripApp.app/FlightTripApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5983BF11BA5A92700EB9E61 /* Build configuration list for PBXProject "FlightTripApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5983C131BA5A92800EB9E61 /* Debug */,
+				B5983C141BA5A92800EB9E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5983C151BA5A92800EB9E61 /* Build configuration list for PBXNativeTarget "FlightTripApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5983C161BA5A92800EB9E61 /* Debug */,
+				B5983C171BA5A92800EB9E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5983C181BA5A92800EB9E61 /* Build configuration list for PBXNativeTarget "FlightTripAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5983C191BA5A92800EB9E61 /* Debug */,
+				B5983C1A1BA5A92800EB9E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5983BEE1BA5A92700EB9E61 /* Project object */;
+}
